@@ -19,13 +19,3 @@
 </p>
 
 ---
-
-## $ whoami
-
-```bash
-Software Engineer focused on AI systems, backend engineering,
-and production-grade full-stack applications.
-
-Currently working on mission-critical systems in defense and telecom.
-Strong interest in AI agents, RAG pipelines, system design,
-and performance optimization.
