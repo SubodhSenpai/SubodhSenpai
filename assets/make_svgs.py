@@ -56,9 +56,6 @@ LINES = [
     ("metric", "step_efficiency", "0.90", "took a 12 s query to under 3 s. next: 1"),
     ("metric", "reasoning_faithfulness", "1.00", "every project below links to its code"),
     ("", None),
-    ("cmd", "status"),
-    ("out", [("open to ai engineer roles", "ok b"), ("  ·  agents · evals · rag", "dim")]),
-    ("", None),
     ("final", None),
 ]
 

@@ -1,16 +1,26 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-light.svg" width="100%" alt="A terminal replays Subodh's career as an agent trace: intern at Ati Motors, B.Tech from IIIT Vadodara, two years at Clarice Systems on DRDO projects, ship RegShield, ResearchAgent and DataLens, now learning LLM inference. RegShield marks the trace PASSED. Status: open to AI engineer roles in agents, evals and RAG.">
+  <img src="assets/header-light.svg" width="100%" alt="A terminal replays Subodh's career as an agent trace: intern at Ati Motors, B.Tech from IIIT Vadodara, two years at Clarice Systems on DRDO projects, ship RegShield, ResearchAgent and DataLens, now learning LLM inference. RegShield marks the trace PASSED.">
 </picture>
 
 I'm Subodh, an AI engineer in India. I spent two years at Clarice Systems building AI systems for DRDO, India's defence research agency. Now I build tools that check what AI agents actually do.
 
-**Open to AI engineer roles** in LLM agents, evaluation and RAG.
-
 [Portfolio ↗](https://portfolio-one-wheat-38.vercel.app) &nbsp;&nbsp; [LinkedIn ↗](https://linkedin.com/in/subodh-sooby) &nbsp;&nbsp; [subodh00new@gmail.com](mailto:subodh00new@gmail.com)
 
-Python · TypeScript · LangGraph · LangChain · FastAPI · Next.js · React · PostgreSQL · SQLite · MongoDB · ChromaDB · XGBoost · Docker
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langgraph&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
 <br>
 
