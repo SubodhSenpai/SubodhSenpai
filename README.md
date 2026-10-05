@@ -28,7 +28,9 @@ I'm Subodh, an AI engineer in India. I spent two years at Clarice Systems buildi
 
 ### [RegShield](https://github.com/SubodhSenpai/RegShield)
 
-Regression tests for agent behaviour. RegShield reads the execution trace (every thought, tool call and result) and fails CI when a prompt or model change makes an agent deploy before the tests run, or tell a user their refund went through when it never ran. The core checks are deterministic and run offline in milliseconds.
+Regression tests for agent behaviour. RegShield reads the execution trace (every thought, tool call and result) and fails CI when a prompt or model change makes an agent deploy before the tests run, pass work round in circles between agents, or tell a user their refund went through when it never ran. The checks are classical algorithms (F1 scoring, a partial-order check over a dependency graph, cycle detection, structural argument matching) that run offline in milliseconds, with an optional LLM judge for what rules can't read.
+
+In production the same rules guard the running agent: a call that breaks one doesn't run, and each run's cost is tracked against a budget, on paid APIs or local models.
 
 This is what a regression looks like:
 
@@ -47,7 +49,7 @@ Failures:
     its prerequisite 'run_unit_tests' (step 2)
 ```
 
-Python · works with LangChain, LangGraph, smolagents or your own loop · [regshield-lyart.vercel.app ↗](https://regshield-lyart.vercel.app)
+Python · works with LangChain, LangGraph, smolagents, the OpenAI, Anthropic and Gemini SDKs, or your own loop · exports to OpenTelemetry · [latest release ↗](https://github.com/SubodhSenpai/RegShield/releases/latest) · [agent-reg-shield.vercel.app ↗](https://agent-reg-shield.vercel.app)
 
 ### [DataLens](https://github.com/SubodhSenpai/Datalens)
 
